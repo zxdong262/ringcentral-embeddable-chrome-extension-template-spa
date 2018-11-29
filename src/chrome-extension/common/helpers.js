@@ -2,7 +2,6 @@ import {parseNumber} from 'libphonenumber-js'
 import _ from 'lodash'
 import RCLOGOSVG from './rc-logo'
 import {formatNumber} from 'libphonenumber-js'
-import fetch from './fetch'
 
 export const RCBTNCLS = 'call-with-ringccentral-btn'
 export const RCBTNCLS2 = 'call-with-rc-btn'
