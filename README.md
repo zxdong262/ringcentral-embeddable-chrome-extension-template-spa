@@ -63,8 +63,8 @@ npm start
 
 1. Go to Chrome extensions page.
 2. Open developer mode
-3. Load `insightly-embeddable-ringcentral-phone/dist` as unpacked package.
-4. Go to `https://crm.*.insightly.com` to check
+3. Load `dist` as unpacked package.
+4. Go to the CRM site to check
 
 ## Build with custom RingCentral clientID/appServer
 

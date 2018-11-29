@@ -37,46 +37,10 @@ module.exports = {
 
     //service name, one word only, such as Insightly, RedTailCRM...
     serviceName: 'noname',
-    
+
     // show call log sync desc form or not
     showCallLogSyncForm: true
-  },
-
-  //// content modification for click to call feature
-  /*
-  insertClickToCallButton: [
-    {
-      urlCheck: href => {
-        return href.includes('?interaction=call')
-      },
-      parentToInsertButton: [
-        () => {
-          return document.querySelector('.start-call').parentNode
-        },
-        () => {
-          return document
-            .querySelector('.panel-is-call button [data-key="twilio.notEnabled.skipOnboarding"]')
-            .parentNode.parentNode
-        }
-      ],
-      insertMethod: [
-        'insertBefore',
-        'append'
-      ]
-    }
-  ],
-  hoverShowClickToCallButton: [
-    {
-      urlCheck: href => {
-        return href.includes('contacts/list/view/all/')
-      },
-      selector: 'table.table tbody tr'
-    }
-  ]
-  */
-
- appKey: 'n2Hbs3xyRW6PlCgAJ5tV5A',
- appServer: '	https://platform.devtest.ringcentral.com',
+  }
 
 }
 

@@ -25,23 +25,6 @@ export function formatPhone(phone) {
   return formatNumber(phone, phoneFormat)
 }
 
-/**
- * get api key from user setting page
- */
-export async function fetchApiKey() {
-  let {host, protocol} = location
-  let url = `${protocol}//${host}/users/usersettings`
-  let res = await fetch.get(url, {
-    headers: {
-      Accept: 'text/html'
-    }
-  })
-  let reg = /id="apikey">([^<]+)</
-  let arr = (res || '').match(reg)
-  let apiKey = _.get(arr, '[1]')
-  return apiKey
-}
-
 let msgHandler1
 let msgHandler2
 export function notify(msg, type = 'info', timer = 5000) {
