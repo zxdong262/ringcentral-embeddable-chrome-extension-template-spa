@@ -32,15 +32,15 @@ module.exports = {
 
 
   //// for third party related
-  /*
+
   thirdPartyConfigs: {
-    // api server url
-    apiServer: 'https://api.insightly.com/v3.0',
+
+    //service name, one word only, such as Insightly, RedTailCRM...
+    serviceName: 'noname',
     
     // show call log sync desc form or not
     showCallLogSyncForm: true
   },
-  */
 
   //// content modification for click to call feature
   /*

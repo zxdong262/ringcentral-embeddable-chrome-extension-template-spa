@@ -20,7 +20,7 @@ let config = {
   //for third party related
   thirdPartyConfigs: {
     showCallLogSyncForm: true,
-    serviceName: 'Insightly'
+    serviceName: 'noname'
   }
 
 }

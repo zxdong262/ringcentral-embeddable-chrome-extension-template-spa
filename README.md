@@ -47,13 +47,18 @@ RingCentral embeddable Chrome extension template for single page app CRM site.
 1. build `content.js`
 
 ```bash
-git clone https://github.com/zxdong262/insightly-embeddable-ringcentral-phone.git
-cd insightly-embeddable-ringcentral-phone
+
+# install dependencies, requires nodejs8.10+
 npm i
+
+# create config file, and set proper thirdPartyConfigs.serviceName
 cp config.sample.js config.js
+
 # then run it
 npm start
-# edit src/*.js, webpack will auto-rebuild
+
+# edit src/*.js, webpack will auto-rebuild,
+# after rebuild, do not forget to refresh in extension page
 ```
 
 1. Go to Chrome extensions page.
