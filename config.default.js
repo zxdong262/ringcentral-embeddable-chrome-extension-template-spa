@@ -19,7 +19,6 @@ let config = {
 
   //for third party related
   thirdPartyConfigs: {
-    apiServer: 'https://api.insightly.com/v3.0',
     showCallLogSyncForm: true,
     serviceName: 'Insightly'
   }

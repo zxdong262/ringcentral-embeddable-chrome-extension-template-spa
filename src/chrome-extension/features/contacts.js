@@ -12,12 +12,11 @@ import {
   createElementFromHTML,
   formatPhone
 } from '../common/helpers'
-import fetch, {handleErr, jsonHeader} from '../common/fetch'
+//import fetch, {handleErr, jsonHeader} from '../common/fetch'
 import {thirdPartyConfigs} from '../common/app-config'
 
 let {
-  serviceName,
-  apiServer
+  serviceName
 } = thirdPartyConfigs
 
 /**
