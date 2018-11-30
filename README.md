@@ -40,7 +40,7 @@ RingCentral embeddable Chrome extension template for single page app CRM site.
 ## Realworld examples
 
 - [insightly-embeddable-ringcentral-phone](https://github.com/zxdong262/insightly-embeddable-ringcentral-phone)
-- [ubspot-embeddable-ringcentral-phone](https://github.com/zxdong262/hubspot-embeddable-ringcentral-phone)
+- [hubspot-embeddable-ringcentral-phone](https://github.com/zxdong262/hubspot-embeddable-ringcentral-phone)
 
 ## Build and Use
 
