@@ -1,12 +1,15 @@
 function checkTab(tab) {
   return tab &&
-    tab.url &&
-    tab.url.startsWith('https://') &&
+    tab.url && true
+    // todo adjust match rule
+    /* example rule
+    tab.url.startsWith('http') &&
     tab.url.includes('insightly.com') &&
     !tab.url.startsWith('https://www.insightly.com') &&
     !tab.url.startsWith('https://login.insightly.com') &&
     !tab.url.startsWith('https://api.insightly.com') &&
     !tab.url.startsWith('https://support.insightly.com')
+    */
 }
 
 async function cb(tabId) {
