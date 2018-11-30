@@ -91,7 +91,8 @@ To make it easier, we already set common modules to reduce developer efforts, yo
 
 - Edit [src/chrome-extension/config.js](src/chrome-extension/config.js) to make click-to-call related features to work
 - Follow the guide in [src/chrome-extension/features/third-party-api.js](src/chrome-extension/features/third-party-api.js) to make all third party features to work.
-- And you can always read [Realworld examples](#realworld-examples) as examples
+- Further more you can edit [dist/manifest.json](dist/manifest.json) and [dist/background.js](dist/background.js) to do more customization work.
+- And you can always read [Realworld examples](#realworld-examples) source code as examples
 
 ## Credits
 
