@@ -35,12 +35,10 @@ class insertHandler {
     }
     for (let i = 0;i < length;i ++) {
       let pc = parentsToInsertButton[i]
-      try {
-        res.elem = pc.getElem()
-        res.insertMethod = pc.insertMethod
+      res.elem = pc.getElem()
+      res.insertMethod = pc.insertMethod
+      if (res.elem) {
         break
-      } catch (e) {
-        //console.log(e)
       }
     }
     return res
@@ -67,7 +65,11 @@ class insertHandler {
     if (this.isButtonInserted()) {
       return
     }
-    let callWithRingCentralBtn = document.querySelector('.' + RCBTNCLS2)
+    let parent = this.getParentDom().elem
+    if (!parent) {
+      return
+    }
+    let callWithRingCentralBtn = parent.querySelector('.' + RCBTNCLS2)
     if (callWithRingCentralBtn) {
       return
     }
