@@ -37,11 +37,19 @@ class LinkHandler {
   }
 
   handleText = (node) => {
-    if (node.querySelector('.rc-click-to-call')) {
+    if (node.querySelector('.rc-click-to-call') || node.classList.contains('rc-click-to-call')) {
       return
     }
     let txt = (node.textContent || '').trim()
     if (!checkPhoneNumber(txt)) {
+      return
+    }
+    if (node.tagName === 'A') {
+      node.classList.add('rc-click-to-call')
+      node.onclick = e => {
+        e.preventDefault()
+        callWithRingCentral(txt)
+      }
       return
     }
     while (node.firstChild) {

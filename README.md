@@ -19,10 +19,10 @@ RingCentral embeddable Chrome extension template for single page app CRM site.
 - Add Click-to-call button in page.
 - Hover conact list to show Click-to-call tooltip.
 - Convert phone number text to Click-to-call link.
-- Popup caller/callee info panel when call inbound/outbound
-- Build with custom app config
-- Show contact event from RingCentral Widgets
-- Manully/auto Sync Call log to third party contact event
+- Popup caller/callee info panel when call inbound/outbound.
+- Build with custom app config.
+- Show contact event from RingCentral Widgets.
+- Manully/auto Sync Call log to third party contact event.
 
 ## Demo video(Insightly)
 
